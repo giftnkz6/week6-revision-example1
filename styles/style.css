@@ -1,0 +1,42 @@
+/* Universal styling */
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li:nth-child(1) {
+    background-color: palevioletred;
+}
+li:last-child{
+    background-color: pink;
+}
+/* main p::before{
+    content: "1";
+}
+main p::after{
+    content: "!";
+} */
+main p::first-letter{
+    font-size: 2rem;
+    background-color: aquamarine;
+}
+.box{
+    width: 400px;
+    outline: 2px solid red;
+    background-color: cornflowerblue;
+    margin: auto;
+
+}
+/* header{
+    display: flex;
+}
+header nav ul{
+    display: flex;
+    
+}
+header nav{
+    margin-left: auto;
+}
+h2{
+    color: gray;
+} */
